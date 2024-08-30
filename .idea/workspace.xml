@@ -1,20 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="645683a5-19bf-47de-8bf0-db3cdd851076" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Tele-Scope.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B-Agents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B-Simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B-Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-ASA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Agents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Calls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Duration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Occupancy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-Service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C-StandinQueue.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2iJWXfbSG9XFHiosZIYr3W3cel0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,13 +49,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.B-Agents.executor": "Run",
+    "Python.B-Simulation.executor": "Run",
+    "Python.B-Test.executor": "Run",
+    "Python.C-ASA.executor": "Run",
+    "Python.C-Agents.executor": "Run",
+    "Python.C-Calls.executor": "Run",
+    "Python.C-Duration.executor": "Run",
+    "Python.C-Occupancy.executor": "Run",
+    "Python.C-Queue.executor": "Run",
+    "Python.C-Service.executor": "Run",
+    "Python.C-StandinQueue.executor": "Run",
+    "Python.Erlang-B Model.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/August Dua/PycharmProjects/BrownianMotionCircle/main.py"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="C-Agents" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tele-Scope" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -42,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\August Dua\PycharmProjects\Tele-Scope\C-Agents.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,16 +109,5 @@
       <updated>1719209201872</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
