@@ -53,7 +53,7 @@ if __name__ == "__main__":
         exit()
 
     # Specify stock ticker
-    stock_ticker = "BA"
+    stock_ticker = "KO"
     print(f"\nFetching data for {stock_ticker}...")
 
     # Fetch stock data
@@ -74,8 +74,8 @@ if __name__ == "__main__":
             print(best_params)
 
             # Prompt to use Kelly Criterion
-            use_kelly = input("Do you want to apply the Kelly Criterion? (yes/no): ").strip().lower() == "yes"
-
+            # use_kelly = input("Do you want to apply the Kelly Criterion? (yes/no): ").strip().lower() == "yes"
+            use_kelly = False
             # Generate signals
             print("Generating signals...")
             generate_signals = getattr(strategy_module, "generate_signals", None)
@@ -86,7 +86,18 @@ if __name__ == "__main__":
             from strategies.moving_average import filter_params_for_function
 
             signal_params = filter_params_for_function(best_params, generate_signals)
-            optimized_data = generate_signals(stock_data.copy(), **signal_params, ticker=stock_ticker)
+            # Write code for if-else for different strategies
+            if chosen_strategy == "moving_average":
+                print("Using Moving Average strategy...")
+                optimized_data = generate_signals(stock_data.copy(), **signal_params)
+            elif chosen_strategy == "break_out":
+                print("Using Break Out strategy...")
+                optimized_data = generate_signals(stock_data.copy(), **signal_params, ticker = stock_ticker)
+            else:
+                print("Using Mean Reverting strategy...")
+                optimized_data = generate_signals(stock_data.copy(), **signal_params, ticker = stock_ticker)
+            # optimized_data = generate_signals(stock_data.copy(), **signal_params, ticker=stock_ticker)
+            # optimized_data = generate_signals(stock_data.copy(), **signal_params)
 
             # Perform backtesting
             print("Performing backtest...")

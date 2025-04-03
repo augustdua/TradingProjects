@@ -64,7 +64,7 @@ def calculate_metrics(data, ticker):
         # Calculate EMA_50
         sma_initial = data[f'Close_{ticker}'].iloc[:50].mean()  # Initial SMA for the first 50 rows
         data[f'EMA_50_{ticker}'] = data[f'Close_{ticker}'].ewm(span=50, adjust=False).mean()
-        data.iloc[49, data.columns.get_loc(f'EMA_50_{ticker}')] = sma_initial
+        # data.iloc[49, data.columns.get_loc(f'EMA_50_{ticker}')] = sma_initial
 
         # Debugging after calculating EMA_50
         # print(f"EMA_50 head before handling SMA for {ticker}:")

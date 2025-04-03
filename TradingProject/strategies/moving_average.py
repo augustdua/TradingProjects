@@ -12,6 +12,7 @@ def generate_signals(data, short_window, long_window):
     Returns:
         pd.DataFrame: Updated data with EMA and signal columns.
     """
+    
     data['EMA_Short'] = data['Close'].ewm(span=short_window, adjust=False).mean()
     data['EMA_Long'] = data['Close'].ewm(span=long_window, adjust=False).mean()
     data['Signal'] = 0
